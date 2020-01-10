@@ -72,6 +72,8 @@ func main() {
     case "h":
       card, cards = draw(cards)
       player = append(player, card)
+    case "s":
+      fmt.Println("Stand")
     default:
       fmt.Println("That is not a valid option. Try again")
     }
